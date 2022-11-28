@@ -62,3 +62,26 @@ nav a {
     margin-top: 10px;
 }
 
+nav a:hover {
+    color: #C78C19;
+    text-decoration: underline;
+ }
+
+ .produtos li:hover {
+    border-color: #C78C19;
+}
+
+.produtos li:active {
+    border-color: #088C19;    
+}
+
+.produtos li:hover h2 {
+    font-size: 34px;
+}
+
+footer {
+    text-align: center;
+    background: url("img/bg.jpg");
+    padding: 40px 0;
+}
+
